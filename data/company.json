@@ -4,7 +4,7 @@
   "tagline": "Export-ready cassava products from Indonesia",
   "brochureUrl": "/docs/company-profile.pdf",
   "foundedYear": "2026",
-  "location": "Palembang, South Sumatra, Indonesia",
+  "location": "Perumahan Pinangsia village 2 blok A nomor 11, Desa/Kelurahan Bukitbaru, Kec. Ilir Barat Satu, Kota Palembang, Provinsi Sumatera selatan",
   "websiteLabel": "Company profile and catalog",
   "history": {
     "eyebrow": "Since 2026",
@@ -99,7 +99,7 @@
       }
     ],
     "email": "tropicalagronusantara@virgilian.com",
-    "location": "Palembang, South Sumatra, Indonesia",
+    "location": "Perumahan Pinangsia village 2 blok A nomor 11, Desa/Kelurahan Bukitbaru, Kec. Ilir Barat Satu, Kota Palembang, Provinsi Sumatera selatan",
     "whatsappUrl": "https://wa.me/6282185449855"
   },
   "gallery": [
@@ -108,6 +108,7 @@
       "alt": "Cassava processing activities",
       "label": "Processing Facility",
       "description": "From peeling and sorting to open-air drying, our process documentation shows real handling activities at the partner production site.",
+      "fit": "cover",
       "slides": [
         "/images/process-drying-white.jpg",
         "/images/process-drying-brown.jpg",
@@ -127,7 +128,12 @@
       "src": "/images/product-tiwul-premium.png",
       "alt": "Finished packaged cassava products",
       "label": "Finished Products",
-      "description": "Retail-ready packshots of our mocaf flour and instant tiwul help present the product line more clearly to buyers."
+      "description": "Retail-ready packshots of our mocaf flour and instant tiwul help present the product line more clearly to buyers.",
+      "fit": "contain",
+      "slides": [
+        "/images/product-mocaf-premium.png",
+        "/images/product-tiwul-premium.png"
+      ]
     }
   ]
 }

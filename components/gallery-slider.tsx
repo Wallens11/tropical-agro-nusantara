@@ -8,9 +8,10 @@ import { Button } from "@/components/ui/button"
 type GallerySliderProps = {
   slides: string[]
   alt: string
+  fit?: "cover" | "contain"
 }
 
-export function GallerySlider({ slides, alt }: GallerySliderProps) {
+export function GallerySlider({ slides, alt, fit = "cover" }: GallerySliderProps) {
   const [activeIndex, setActiveIndex] = useState(0)
 
   const showPrevious = () => {
@@ -27,7 +28,7 @@ export function GallerySlider({ slides, alt }: GallerySliderProps) {
         src={slides[activeIndex]}
         alt={alt}
         fill
-        className="object-cover"
+        className={fit === "contain" ? "object-contain p-6" : "object-cover"}
       />
       <div className="absolute inset-x-0 bottom-0 flex items-center justify-between bg-gradient-to-t from-black/30 via-black/10 to-transparent px-4 pb-4 pt-10">
         <Button
@@ -38,7 +39,7 @@ export function GallerySlider({ slides, alt }: GallerySliderProps) {
           onClick={showPrevious}
         >
           <ChevronLeft className="h-4 w-4" />
-          <span className="sr-only">Previous processing photo</span>
+          <span className="sr-only">Previous gallery image</span>
         </Button>
         <div className="flex items-center gap-1.5">
           {slides.map((slide, index) => (
@@ -58,7 +59,7 @@ export function GallerySlider({ slides, alt }: GallerySliderProps) {
           onClick={showNext}
         >
           <ChevronRight className="h-4 w-4" />
-          <span className="sr-only">Next processing photo</span>
+          <span className="sr-only">Next gallery image</span>
         </Button>
       </div>
     </div>

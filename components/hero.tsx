@@ -85,13 +85,13 @@ export function Hero() {
               priority
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-transparent" />
-            <div className="absolute left-5 top-5 rounded-2xl border border-white/65 bg-white/90 p-3 shadow-lg backdrop-blur">
+            <div className="absolute left-5 top-5 rounded-[1.6rem] border border-white/65 bg-white/88 p-2.5 shadow-lg backdrop-blur">
               <Image
-                src="/branding/logo-wordmark.svg"
-                alt={`${company.name} wordmark`}
-                width={180}
-                height={56}
-                className="h-auto w-[160px] md:w-[180px]"
+                src="/branding/logo-company.jpeg"
+                alt={company.name}
+                width={96}
+                height={82}
+                className="h-auto w-[72px] rounded-[1.1rem] md:w-[84px]"
               />
             </div>
           </div>
@@ -99,7 +99,7 @@ export function Hero() {
             <div className="flex items-center justify-between gap-4">
               <div>
                 <p className="text-sm font-medium text-foreground">{company.history.eyebrow}</p>
-                <p className="text-xs text-muted-foreground">{company.location}</p>
+                <p className="max-w-[16rem] text-xs text-muted-foreground text-pretty md:max-w-[18rem]">{company.location}</p>
               </div>
               <div className="text-right">
                 <p className="text-sm font-medium text-primary">{company.websiteLabel}</p>

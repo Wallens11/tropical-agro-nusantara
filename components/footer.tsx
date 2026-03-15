@@ -11,10 +11,10 @@ export function Footer() {
             <div className="flex items-center justify-center gap-2 md:justify-start">
               <div className="relative h-11 w-11 overflow-hidden rounded-2xl border border-border bg-card">
                 <Image
-                  src="/branding/logo-mark.svg"
+                  src="/branding/logo-company.jpeg"
                   alt={company.name}
                   fill
-                  className="object-contain p-1.5"
+                  className="object-cover"
                   sizes="44px"
                 />
               </div>
@@ -26,7 +26,7 @@ export function Footer() {
           </div>
 
           <div className="flex flex-col items-center gap-1 text-sm text-muted-foreground md:items-end">
-            <p>{company.contact.location}</p>
+            <p className="max-w-xs text-pretty md:text-right">{company.contact.location}</p>
             <p>{company.contact.email}</p>
             <p>{company.contact.phoneDisplay}</p>
             {company.contact.additionalPhones.map((entry) => (

@@ -27,7 +27,7 @@ export function Gallery() {
             >
               <div className="relative aspect-[4/3] bg-muted">
                 {Array.isArray(item.slides) ? (
-                  <GallerySlider slides={item.slides} alt={item.alt} />
+                  <GallerySlider slides={item.slides} alt={item.alt} fit={item.fit} />
                 ) : (
                   <Image
                     src={item.src}

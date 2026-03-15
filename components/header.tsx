@@ -27,10 +27,10 @@ export function Header() {
         <Link href="/" className="flex items-center gap-3">
           <div className="relative h-11 w-11 overflow-hidden rounded-2xl border border-border bg-card shadow-sm">
             <Image
-              src="/branding/logo-mark.svg"
+              src="/branding/logo-company.jpeg"
               alt={company.name}
               fill
-              className="object-contain p-1.5"
+              className="object-cover"
               sizes="44px"
             />
           </div>

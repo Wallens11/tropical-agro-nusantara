@@ -70,7 +70,7 @@ export function Contact() {
                 <MapPin className="h-5 w-5 text-primary" />
               </div>
               <h3 className="mt-4 font-semibold text-foreground">Location</h3>
-              <p className="mt-1 text-sm text-muted-foreground">{company.contact.location}</p>
+              <p className="mt-1 max-w-xs text-sm text-muted-foreground text-pretty">{company.contact.location}</p>
             </div>
           </div>
         </div>

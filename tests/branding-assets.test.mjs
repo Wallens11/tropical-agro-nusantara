@@ -9,7 +9,7 @@ const files = [
   new URL("../components/footer.tsx", import.meta.url),
 ];
 
-test("branding uses the clean SVG logo assets and brochure link", async () => {
+test("branding uses the approved photo logo asset and brochure link", async () => {
   const company = JSON.parse(
     await readFile(new URL("../data/company.json", import.meta.url), "utf8"),
   );
@@ -18,7 +18,7 @@ test("branding uses the clean SVG logo assets and brochure link", async () => {
 
   for (const file of files) {
     const content = await readFile(file, "utf8");
-    assert.match(content, /logo-(mark|wordmark)\.svg/);
-    assert.doesNotMatch(content, /logo-tan\.jpeg/);
+    assert.match(content, /logo-company\.jpeg/);
+    assert.doesNotMatch(content, /logo-(mark|wordmark)\.svg/);
   }
 });
