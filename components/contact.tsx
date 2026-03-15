@@ -1,12 +1,12 @@
 import { Button } from "@/components/ui/button"
-import { MessageCircle, Mail, MapPin, Phone } from "lucide-react"
+import { MessageCircle, Mail, MapPin, Phone, FileText } from "lucide-react"
 import company from "@/data/company.json"
 
 export function Contact() {
   return (
     <section id="contact" className="bg-card py-16 md:py-24">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
-        <div className="rounded-lg border border-border bg-background p-8 md:p-12">
+        <div className="rounded-[2rem] border border-border bg-background p-8 shadow-sm md:p-12">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="font-serif text-3xl font-semibold tracking-tight text-foreground md:text-4xl">
               Ready to Partner with Us?
@@ -30,6 +30,12 @@ export function Contact() {
                 <a href={`mailto:${company.contact.email}`}>
                   <Mail className="mr-2 h-5 w-5" />
                   Send Email
+                </a>
+              </Button>
+              <Button size="lg" variant="outline" asChild>
+                <a href={company.brochureUrl} target="_blank" rel="noopener noreferrer">
+                  <FileText className="mr-2 h-5 w-5" />
+                  Download PDF
                 </a>
               </Button>
             </div>
