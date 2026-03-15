@@ -9,13 +9,13 @@ export function Footer() {
         <div className="flex flex-col items-center gap-6 text-center md:flex-row md:justify-between md:text-left">
           <div>
             <div className="flex items-center justify-center gap-2 md:justify-start">
-              <div className="relative h-10 w-10 overflow-hidden rounded-full border border-border bg-card">
+              <div className="relative h-11 w-11 overflow-hidden rounded-2xl border border-border bg-card">
                 <Image
-                  src="/branding/logo-tan.jpeg"
+                  src="/branding/logo-mark.svg"
                   alt={company.name}
                   fill
-                  className="object-cover"
-                  sizes="40px"
+                  className="object-contain p-1.5"
+                  sizes="44px"
                 />
               </div>
               <div>
@@ -47,12 +47,15 @@ export function Footer() {
               <Link href="#catalog" className="text-sm text-muted-foreground hover:text-foreground">
                 Catalog
               </Link>
+              <Link href="#team" className="text-sm text-muted-foreground hover:text-foreground">
+                Team
+              </Link>
               <Link href="#contact" className="text-sm text-muted-foreground hover:text-foreground">
                 Contact
               </Link>
             </nav>
             <p className="text-sm text-muted-foreground">
-              (c) {new Date().getFullYear()} {company.name}. All rights reserved.
+              Copyright {new Date().getFullYear()} {company.name}. All rights reserved.
             </p>
           </div>
         </div>

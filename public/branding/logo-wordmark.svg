@@ -1,0 +1,13 @@
+<svg width="640" height="200" viewBox="0 0 640 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="200" rx="36" fill="#F8F7F1"/>
+  <rect x="18" y="18" width="164" height="164" rx="36" fill="#FFFFFF"/>
+  <path d="M100 43C92.5 59 88.8 72.1 88.8 82.2C88.8 94.3 93.5 105.1 100 113.7C106.5 105.1 111.2 94.3 111.2 82.2C111.2 72.1 107.5 59 100 43Z" fill="#7C8E2A"/>
+  <path d="M126.6 66.9C114.6 77.6 108.6 88.7 108.6 100.1C108.6 110.9 113.1 121.3 119.3 129.4C133.9 119.5 142.6 105 142.6 88.5C142.6 82.1 137.1 72.9 126.6 66.9Z" fill="#7C8E2A"/>
+  <path d="M73.4 66.9C83.9 72.9 89.4 82.1 89.4 88.5C89.4 105 80.7 119.5 66.1 129.4C59.9 121.3 55.4 110.9 55.4 100.1C55.4 88.7 61.4 77.6 73.4 66.9Z" fill="#7C8E2A"/>
+  <path d="M100 106.4C83.6 119.6 74.2 134.8 74.2 151.9C74.2 162.4 78 172.2 84.3 180H115.7C122 172.2 125.8 162.4 125.8 151.9C125.8 134.8 116.4 119.6 100 106.4Z" fill="#7C8E2A"/>
+  <path d="M100 117V178" stroke="#F8F7F1" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="100" cy="160" r="6" fill="#B99B3B"/>
+  <text x="220" y="88" fill="#273327" font-family="Georgia, 'Times New Roman', serif" font-size="26" letter-spacing="7">PT.</text>
+  <text x="220" y="128" fill="#273327" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700">Tropical Agro</text>
+  <text x="220" y="162" fill="#7C8E2A" font-family="Arial, sans-serif" font-size="24" letter-spacing="8">NUSANTARA</text>
+</svg>

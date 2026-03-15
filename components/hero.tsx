@@ -58,12 +58,12 @@ export function Hero() {
           </p>
         </div>
         <div className="relative">
-          <div className="absolute -left-6 top-6 hidden h-28 w-28 overflow-hidden rounded-full border border-white/60 bg-white/70 shadow-2xl backdrop-blur md:block">
+          <div className="absolute -left-6 top-6 hidden h-28 w-28 overflow-hidden rounded-[2rem] border border-white/60 bg-white/90 shadow-2xl backdrop-blur md:block">
             <Image
-              src="/branding/logo-tan.jpeg"
+              src="/branding/logo-mark.svg"
               alt={`${company.name} logo`}
               fill
-              className="object-cover"
+              className="object-contain p-3"
               sizes="112px"
             />
           </div>

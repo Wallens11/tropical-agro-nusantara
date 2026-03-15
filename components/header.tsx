@@ -25,13 +25,13 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/90">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-3">
-          <div className="relative h-10 w-10 overflow-hidden rounded-full border border-border bg-card shadow-sm">
+          <div className="relative h-11 w-11 overflow-hidden rounded-2xl border border-border bg-card shadow-sm">
             <Image
-              src="/branding/logo-tan.jpeg"
+              src="/branding/logo-mark.svg"
               alt={company.name}
               fill
-              className="object-cover"
-              sizes="40px"
+              className="object-contain p-1.5"
+              sizes="44px"
             />
           </div>
           <div className="hidden sm:block">
