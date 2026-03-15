@@ -1,0 +1,113 @@
+{
+  "name": "PT. Tropical Agro Nusantara",
+  "shortName": "Tropical Agro Nusantara",
+  "tagline": "Export-ready cassava products from Indonesia",
+  "foundedYear": "2026",
+  "location": "Palembang, South Sumatra, Indonesia",
+  "websiteLabel": "Company profile and catalog",
+  "history": {
+    "eyebrow": "Since 2026",
+    "summary": "PT Tropical Agro Nusantara was founded with a simple idea: to bring the best of Indonesia's local agricultural products to a wider market while supporting the people behind them. We focus on the distribution and sales of mocaf flour (Modified Cassava Flour) and tiwul, two cassava-based products that have long been part of Indonesia's food culture.",
+    "details": [
+      "Seeing the great potential of cassava as a local commodity, we work closely with farmers and small producers to ensure consistent quality and sustainable supply.",
+      "Our goal is not only to provide good products, but also to help create more opportunities for Micro, Small, and Medium Enterprises (UMKM) and contribute to the growth of the local economy.",
+      "Since the beginning, PT Tropical Agro Nusantara has been committed to building strong partnerships, maintaining product quality, and expanding market access."
+    ]
+  },
+  "vision": "To become a trusted global supplier of high-quality cassava-based products from Indonesia.",
+  "missions": [
+    "To contribute to the sustainable growth of local farmers and small enterprises through international trade.",
+    "To provide export-quality mocaf flour and tiwul that meet international standards and customer expectations.",
+    "To build long-term partnerships with global buyers through consistency, integrity, and dependable service.",
+    "To work closely with local farmers and UMKM to ensure sustainable supply and fair economic impact.",
+    "To continuously improve our quality control, production processes, and logistics to compete in the international market."
+  ],
+  "products": [
+    {
+      "name": "Mocaf Flour",
+      "image": "/images/mocaf-flour.jpg",
+      "description": "A premium gluten-free flour made from selected cassava through a controlled fermentation process, offering fine texture and versatile functionality for bakery, noodle, snack, and other food applications.",
+      "highlights": [
+        "Neutral aroma and taste",
+        "Suitable for bakery, noodles, snacks, and composite flour applications",
+        "Bulk production capacity for export supply",
+        "Fine texture for consistent food processing"
+      ],
+      "specs": [
+        { "label": "Product Type", "value": "Modified Cassava Flour (Mocaf)" },
+        { "label": "Raw Material", "value": "Selected fresh cassava" },
+        { "label": "Texture", "value": "Fine powder" },
+        { "label": "Profile", "value": "Neutral aroma and taste" },
+        { "label": "Applications", "value": "Bakery, noodles, snacks, and composite flour" },
+        { "label": "Supply", "value": "Bulk production for export-ready orders" }
+      ]
+    },
+    {
+      "name": "Tiwul",
+      "image": "/images/tiwul.jpg",
+      "description": "A traditional Indonesian cassava-based product made from dried and processed cassava, offering a natural, gluten-free carbohydrate alternative suitable for both modern and traditional food applications.",
+      "highlights": [
+        "Made from selected cassava",
+        "Naturally gluten-free",
+        "Long shelf life",
+        "Suitable for rehydration and food processing",
+        "Export-ready packaging"
+      ],
+      "specs": [
+        { "label": "Product Type", "value": "Tiwul" },
+        { "label": "Raw Material", "value": "Selected dried cassava" },
+        { "label": "Characteristics", "value": "Naturally gluten-free carbohydrate alternative" },
+        { "label": "Shelf Life", "value": "Long shelf life with proper storage" },
+        { "label": "Applications", "value": "Rehydration, food processing, and traditional dishes" },
+        { "label": "Packaging", "value": "Export-ready packaging options available" }
+      ]
+    }
+  ],
+  "reasons": [
+    {
+      "title": "High-Quality Products",
+      "description": "We offer carefully processed mocaf flour and tiwul that meet international standards."
+    },
+    {
+      "title": "Reliable Supply",
+      "description": "Strong partnerships with local farmers and UMKM ensure consistent and sustainable supply."
+    },
+    {
+      "title": "Global Market Ready",
+      "description": "Our products are packaged, tested, and delivered to meet export requirements."
+    },
+    {
+      "title": "Commitment to Communities",
+      "description": "By working with local producers, we support economic growth and fair trade."
+    }
+  ],
+  "team": [
+    { "name": "Tommy", "role": "Manager" },
+    { "name": "Danin", "role": "Marketing" },
+    { "name": "Jennifer", "role": "Public Relations" }
+  ],
+  "contact": {
+    "phone": "+6282185449855",
+    "phoneDisplay": "+62 821-8544-9855",
+    "email": "tropicalagronusantara@virgilian.com",
+    "location": "Palembang, South Sumatra, Indonesia",
+    "whatsappUrl": "https://wa.me/6282185449855"
+  },
+  "gallery": [
+    {
+      "src": "/images/facility.jpg",
+      "alt": "Cassava processing facility",
+      "label": "Processing Facility"
+    },
+    {
+      "src": "/images/quality-control.jpg",
+      "alt": "Quality control process",
+      "label": "Quality Control"
+    },
+    {
+      "src": "/images/packaging.jpg",
+      "alt": "Export-ready product packaging",
+      "label": "Export Packaging"
+    }
+  ]
+}
