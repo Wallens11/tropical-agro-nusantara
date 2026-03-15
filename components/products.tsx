@@ -19,12 +19,12 @@ export function Products() {
         <div className="mt-12 grid gap-8 md:grid-cols-2">
           {company.products.map((product) => (
             <div key={product.name} className="overflow-hidden rounded-[1.75rem] border border-border bg-card shadow-sm">
-              <div className="relative aspect-[16/10] bg-muted">
+              <div className="relative aspect-[16/10] overflow-hidden bg-[radial-gradient(circle_at_top,_rgba(124,142,42,0.12),_transparent_40%),linear-gradient(180deg,_#fbfaf5,_#f2efe6)]">
                 <Image
                   src={product.image}
                   alt={product.name}
                   fill
-                  className="object-cover"
+                  className="object-contain p-6"
                 />
               </div>
               <div className="p-6">

@@ -1,5 +1,8 @@
 import Image from "next/image"
+import Link from "next/link"
+import { FileText } from "lucide-react"
 import company from "@/data/company.json"
+import { GallerySlider } from "@/components/gallery-slider"
 
 export function Gallery() {
   return (
@@ -14,19 +17,39 @@ export function Gallery() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-3">
-          {company.gallery.map((item) => (
-            <div key={item.label} className="group overflow-hidden rounded-[1.5rem] border border-border bg-card shadow-sm">
+        <div className="mt-12 grid gap-6 lg:grid-cols-[1.4fr_1fr_1fr]">
+          {company.gallery.map((item, index) => (
+            <div
+              key={item.label}
+              className={`overflow-hidden rounded-[1.5rem] border border-border bg-card shadow-sm ${
+                index === 0 ? "lg:col-span-1" : ""
+              }`}
+            >
               <div className="relative aspect-[4/3] bg-muted">
-                <Image
-                  src={item.src}
-                  alt={item.alt}
-                  fill
-                  className="object-cover transition-transform duration-300 group-hover:scale-105"
-                />
+                {Array.isArray(item.slides) ? (
+                  <GallerySlider slides={item.slides} alt={item.alt} />
+                ) : (
+                  <Image
+                    src={item.src}
+                    alt={item.alt}
+                    fill
+                    className={index === 1 ? "object-contain p-4" : "object-contain p-6"}
+                  />
+                )}
               </div>
-              <div className="p-4 text-center">
-                <p className="text-sm font-medium text-foreground">{item.label}</p>
+              <div className="space-y-3 p-5">
+                <p className="text-sm font-semibold text-foreground">{item.label}</p>
+                <p className="text-sm leading-relaxed text-muted-foreground">{item.description}</p>
+                {item.href ? (
+                  <Link
+                    href={item.href}
+                    target="_blank"
+                    className="inline-flex items-center gap-2 text-sm font-medium text-primary"
+                  >
+                    <FileText className="h-4 w-4" />
+                    {item.cta}
+                  </Link>
+                ) : null}
               </div>
             </div>
           ))}

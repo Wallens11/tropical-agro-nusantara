@@ -26,7 +26,7 @@
   "products": [
     {
       "name": "Mocaf Flour",
-      "image": "/images/mocaf-flour.jpg",
+      "image": "/images/product-mocaf-premium.png",
       "description": "A premium gluten-free flour made from selected cassava through a controlled fermentation process, offering fine texture and versatile functionality for bakery, noodle, snack, and other food applications.",
       "highlights": [
         "Neutral aroma and taste",
@@ -45,7 +45,7 @@
     },
     {
       "name": "Tiwul",
-      "image": "/images/tiwul.jpg",
+      "image": "/images/product-tiwul-premium.png",
       "description": "A traditional Indonesian cassava-based product made from dried and processed cassava, offering a natural, gluten-free carbohydrate alternative suitable for both modern and traditional food applications.",
       "highlights": [
         "Made from selected cassava",
@@ -96,19 +96,30 @@
   },
   "gallery": [
     {
-      "src": "/images/facility.jpg",
-      "alt": "Cassava processing facility",
-      "label": "Processing Facility"
+      "src": "/images/process-drying-white.jpg",
+      "alt": "Cassava processing activities",
+      "label": "Processing Facility",
+      "description": "From peeling and sorting to open-air drying, our process documentation shows real handling activities at the partner production site.",
+      "slides": [
+        "/images/process-drying-white.jpg",
+        "/images/process-drying-brown.jpg",
+        "/images/process-site-overview.jpg",
+        "/images/process-inspection.jpg"
+      ]
     },
     {
-      "src": "/images/quality-control.jpg",
-      "alt": "Quality control process",
-      "label": "Quality Control"
+      "src": "/images/lab-report-mocaf.png",
+      "alt": "SGS laboratory report for mocaf flour",
+      "label": "Lab Verification",
+      "description": "Our mocaf flour has a documented third-party lab report showing moisture, fat, protein, ash, and total carbohydrate analysis.",
+      "href": "/docs/JKF26-0000563_60006019_Final.pdf",
+      "cta": "Open Lab Report"
     },
     {
-      "src": "/images/packaging.jpg",
-      "alt": "Export-ready product packaging",
-      "label": "Export Packaging"
+      "src": "/images/product-tiwul-premium.png",
+      "alt": "Finished packaged cassava products",
+      "label": "Finished Products",
+      "description": "Retail-ready packshots of our mocaf flour and instant tiwul help present the product line more clearly to buyers."
     }
   ]
 }
