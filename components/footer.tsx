@@ -29,6 +29,9 @@ export function Footer() {
             <p>{company.contact.location}</p>
             <p>{company.contact.email}</p>
             <p>{company.contact.phoneDisplay}</p>
+            {company.contact.additionalPhones.map((entry) => (
+              <p key={entry.phone}>{entry.phoneDisplay}</p>
+            ))}
           </div>
         </div>
 

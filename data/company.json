@@ -90,6 +90,14 @@
   "contact": {
     "phone": "+6282185449855",
     "phoneDisplay": "+62 821-8544-9855",
+    "phoneLabel": "Indonesia Sales",
+    "additionalPhones": [
+      {
+        "phone": "+819075068018",
+        "phoneDisplay": "+81 90-7506-8018",
+        "label": "Japan Contact"
+      }
+    ],
     "email": "tropicalagronusantara@virgilian.com",
     "location": "Palembang, South Sumatra, Indonesia",
     "whatsappUrl": "https://wa.me/6282185449855"

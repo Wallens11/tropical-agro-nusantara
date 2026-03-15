@@ -13,6 +13,7 @@ test("company data matches the approved profile essentials", async () => {
   assert.equal(company.name, "PT. Tropical Agro Nusantara");
   assert.equal(company.foundedYear, "2026");
   assert.equal(company.contact.phone, "+6282185449855");
+  assert.equal(company.contact.additionalPhones[0].phone, "+819075068018");
   assert.equal(company.contact.email, "tropicalagronusantara@virgilian.com");
   assert.match(company.history.summary, /mocaf flour/i);
   assert.match(company.history.summary, /tiwul/i);

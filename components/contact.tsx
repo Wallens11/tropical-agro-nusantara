@@ -41,14 +41,23 @@ export function Contact() {
             </div>
           </div>
 
-          <div className="mt-12 grid gap-6 border-t border-border pt-10 sm:grid-cols-3">
+          <div className="mt-12 grid gap-6 border-t border-border pt-10 md:grid-cols-4">
             <div className="flex flex-col items-center text-center">
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-secondary">
                 <Phone className="h-5 w-5 text-primary" />
               </div>
-              <h3 className="mt-4 font-semibold text-foreground">WhatsApp</h3>
+              <h3 className="mt-4 font-semibold text-foreground">{company.contact.phoneLabel}</h3>
               <p className="mt-1 text-sm text-muted-foreground">{company.contact.phoneDisplay}</p>
             </div>
+            {company.contact.additionalPhones.map((entry) => (
+              <div key={entry.phone} className="flex flex-col items-center text-center">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-secondary">
+                  <Phone className="h-5 w-5 text-primary" />
+                </div>
+                <h3 className="mt-4 font-semibold text-foreground">{entry.label}</h3>
+                <p className="mt-1 text-sm text-muted-foreground">{entry.phoneDisplay}</p>
+              </div>
+            ))}
             <div className="flex flex-col items-center text-center">
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-secondary">
                 <Mail className="h-5 w-5 text-primary" />
