@@ -83,8 +83,16 @@
     }
   ],
   "team": [
-    { "name": "Tommy", "role": "Manager" },
-    { "name": "Danin", "role": "Marketing" },
+    {
+      "name": "Tommy",
+      "role": "Manager",
+      "image": "/images/team-tommy.png"
+    },
+    {
+      "name": "Danin",
+      "role": "Marketing",
+      "image": "/images/team-danin.png"
+    },
     { "name": "Jennifer", "role": "Public Relations" }
   ],
   "contact": {

@@ -17,4 +17,6 @@ test("media data points to the refreshed lab and product assets", async () => {
   assert.equal(company.gallery[2].slides?.length, 2);
   assert.equal(company.products[0].image, "/images/product-mocaf-premium.png");
   assert.equal(company.products[1].image, "/images/product-tiwul-premium.png");
+  assert.equal(company.team[0].image, "/images/team-tommy.png");
+  assert.equal(company.team[1].image, "/images/team-danin.png");
 });

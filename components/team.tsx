@@ -1,3 +1,4 @@
+import Image from "next/image"
 import company from "@/data/company.json"
 
 export function Team() {
@@ -17,13 +18,28 @@ export function Team() {
           {company.team.map((member) => (
             <div
               key={member.name}
-              className="rounded-[1.75rem] border border-border bg-card p-8 text-center shadow-sm"
+              className="overflow-hidden rounded-[1.75rem] border border-border bg-card shadow-sm"
             >
-              <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-primary/10 text-2xl font-semibold text-primary">
-                {member.name.slice(0, 1)}
+              <div className="relative aspect-[4/5] bg-[radial-gradient(circle_at_top,_rgba(124,142,42,0.14),_transparent_42%),linear-gradient(180deg,_#f8f6ef,_#eff2e8)]">
+                {member.image ? (
+                  <Image
+                    src={member.image}
+                    alt={member.name}
+                    fill
+                    className="object-cover"
+                  />
+                ) : (
+                  <div className="flex h-full items-center justify-center">
+                    <div className="flex h-24 w-24 items-center justify-center rounded-full bg-primary/10 text-3xl font-semibold text-primary">
+                      {member.name.slice(0, 1)}
+                    </div>
+                  </div>
+                )}
               </div>
-              <h3 className="mt-5 text-xl font-semibold text-foreground">{member.name}</h3>
-              <p className="mt-2 text-sm uppercase tracking-[0.22em] text-muted-foreground">{member.role}</p>
+              <div className="p-6 text-center">
+                <h3 className="text-xl font-semibold text-foreground">{member.name}</h3>
+                <p className="mt-2 text-sm uppercase tracking-[0.22em] text-muted-foreground">{member.role}</p>
+              </div>
             </div>
           ))}
         </div>
