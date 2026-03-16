@@ -1,4 +1,5 @@
 import Image from "next/image"
+import { UserRound } from "lucide-react"
 import company from "@/data/company.json"
 
 export function Team() {
@@ -31,8 +32,8 @@ export function Team() {
                   />
                 ) : (
                   <div className="flex h-full items-center justify-center">
-                    <div className="flex h-24 w-24 items-center justify-center rounded-full bg-primary/10 text-3xl font-semibold text-primary">
-                      {member.name.slice(0, 1)}
+                    <div className="flex h-28 w-28 items-center justify-center rounded-full border border-border bg-card/90 text-primary shadow-sm">
+                      <UserRound className="h-12 w-12" />
                     </div>
                   </div>
                 )}

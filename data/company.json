@@ -97,9 +97,7 @@
     },
     {
       "name": "Jennifer",
-      "role": "Public Relations",
-      "image": "/images/team-jennifer-avatar.png",
-      "imagePosition": "50% 50%"
+      "role": "Public Relations"
     }
   ],
   "contact": {
