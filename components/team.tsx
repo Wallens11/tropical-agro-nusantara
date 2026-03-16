@@ -26,7 +26,8 @@ export function Team() {
                     src={member.image}
                     alt={member.name}
                     fill
-                    className="object-contain p-4"
+                    className="object-cover"
+                    style={{ objectPosition: member.imagePosition ?? "center" }}
                   />
                 ) : (
                   <div className="flex h-full items-center justify-center">

@@ -86,14 +86,21 @@
     {
       "name": "Tommy",
       "role": "Manager",
-      "image": "/images/team-tommy.png"
+      "image": "/images/team-tommy.png",
+      "imagePosition": "50% 38%"
     },
     {
       "name": "Danin",
       "role": "Marketing",
-      "image": "/images/team-danin.png"
+      "image": "/images/team-danin.png",
+      "imagePosition": "50% 28%"
     },
-    { "name": "Jennifer", "role": "Public Relations" }
+    {
+      "name": "Jennifer",
+      "role": "Public Relations",
+      "image": "/images/team-jennifer-avatar.svg",
+      "imagePosition": "50% 50%"
+    }
   ],
   "contact": {
     "phone": "+6282185449855",
