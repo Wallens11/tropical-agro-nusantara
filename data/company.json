@@ -87,7 +87,7 @@
       "name": "Tommy",
       "role": "Manager",
       "image": "/images/team-tommy.png",
-      "imagePosition": "50% 38%"
+      "imagePosition": "50% 44%"
     },
     {
       "name": "Danin",
@@ -98,7 +98,7 @@
     {
       "name": "Jennifer",
       "role": "Public Relations",
-      "image": "/images/team-jennifer-avatar.svg",
+      "image": "/images/team-jennifer-avatar.png",
       "imagePosition": "50% 50%"
     }
   ],
